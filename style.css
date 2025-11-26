@@ -135,3 +135,12 @@ button:hover { background: #005bb5; }
 .container img{
     width: 8%;
 }
+
+.logo-section a {
+    display: flex;
+    align-items: center;   
+    gap: 10px;            
+    text-decoration: none; 
+    color: #1b29db; 
+
+}
