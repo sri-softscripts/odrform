@@ -90,14 +90,17 @@ document.getElementById("commentForm").addEventListener("submit", async (e) => {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data)
     });
+
     const result = await res.json();
+
     if (result.success) {
-      status.textContent = "Form submitted successfully!";
-      document.getElementById("commentForm").reset();
-      currentStep = 0;
-      showStep(currentStep);
-      // Remove all active states
-      document.querySelectorAll(".number-button").forEach(btn => btn.classList.remove("active"));
+
+      //  Hide form and headings, show success message 
+      status.textContent = "Thank you for participating and sharing your comments. Form submitted successfully.";
+      document.getElementById("commentForm").style.display = "none";
+      document.querySelector("h2").style.display = "none";
+      document.querySelector(".description").style.display = "none";
+
     } else {
       status.textContent = "Failed to send. Error: " + result.error;
     }
@@ -106,3 +109,4 @@ document.getElementById("commentForm").addEventListener("submit", async (e) => {
     status.textContent = "Something went wrong!";
   }
 });
+
