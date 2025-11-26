@@ -1,0 +1,137 @@
+/* Container & fonts */
+body {
+  font-family: "system-ui", -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 100%;
+  
+  
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 40px;
+  line-height: 45px;
+  color: rgb(10,10,10);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+p.description {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: rgb(54,54,54);
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+label {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: rgb(54,54,54);
+  display: block;
+  margin: 1rem 0 0.3rem;
+  text-align: center;
+}
+
+/* Steps */
+.step { display: none; }
+.step.active { display: block; }
+
+/* Radio buttons container */
+.radio-group {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+  justify-content: center;
+}
+
+/* Number buttons */
+.number-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 0.2s ease;
+  user-select: none;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Hide the default radio input */
+.number-button input[type="radio"] {
+  display: none;
+}
+
+/* Selected state */
+.number-button.active {
+  background-color: #0070f3;
+  color: #fff;
+  border-color: #005bb5;
+}
+
+/* Hover effect */
+.number-button:hover {
+  background-color: #e0e0e0;
+  border-color: #999;
+}
+
+/* Textarea */
+textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Step buttons */
+.step-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+  gap: 10px;
+}
+
+button {
+  padding: 0.7rem 1.2rem;
+  font-size: 16px;
+  background: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+button:hover { background: #005bb5; }
+
+/* Status */
+#status {
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+}
+
+.container img{
+    width: 8%;
+}
