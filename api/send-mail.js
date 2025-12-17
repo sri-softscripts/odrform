@@ -21,19 +21,20 @@ export default async function handler(req, res){
     q6: "6. How would you rate customer service provided by ferry staff?",
     q7: "7. How safe do you feel while boarding, riding, and disembarking the ferry?",
     q8: "8. How well do crew members follow and enforce safety procedures?",
-    q9: "9. How well does current ferry frequency meet community needs?",
-    q10: "10. How adequate is the vessel capacity during peak times?",
-    q11: "11. How would you rate your experience at the Red Hook terminal?",
-    q12: "12. How would you rate your experience at the Cruz Bay terminal?",
-    q13: "13. How accessible are the ferries and terminals for seniors, individuals with disabilities, and families?",
-    q14: "14. How aware are you of the ferry companies’ request for a rate increase?",
-    q15: "15. How affordable do you find the current ferry rates for residents, commuters, and students?",
-    q16: "16. How would you rate the impact a fare increase would have on your household or business?",
-    q17: "17. How strongly do you support or oppose the proposed rate increase?",
-    q18: "18. How well do you feel the ferry operators have justified the need for a rate increase?",
-    q19: "19. Should any rate increase be contingent on specific improvements (reliability, financial transparency, vessel availability, etc.)?",
-    q20: "20. How important is modernization (digital ticketing, real-time tracking, etc.) for the ferry system?",
-    q21: "21. How effectively do ferry operators communicate about outages, repairs, and schedule changes?"
+    q9: "9. Charlotte Amalie Route - How well does the frequency/scheduling of runs meet community needs?",
+    q10: "10. Cruz Bay Route - How well does the frequency/scheduling of runs meet community needs?",
+    q11: "11. How adequate is the vessel capacity during peak times?",
+    q12: "12. How would you rate your experience at the Red Hook terminal?",
+    q13: "13. How would you rate your experience at the Cruz Bay terminal?",
+    q14: "14. How accessible are the ferries and terminals for seniors, individuals with disabilities, and families?",
+    q15: "15. How aware are you of the ferry companies’ request for a rate increase?",
+    q16: "16. How affordable do you find the current ferry rates for residents, commuters, and students?",
+    q17: "17. How would you rate the impact a fare increase would have on your household or business?",
+    q18: "18. How strongly do you support or oppose the proposed rate increase?",
+    q19: "19. How well do you feel the ferry operators have justified the need for a rate increase?",
+    q20: "20. Should any rate increase be contingent on specific improvements (reliability, financial transparency, vessel availability, etc.)?",
+    q21: "21. How important is modernization (digital ticketing, real-time tracking, etc.) for the ferry system?",
+    q22: "22. How effectively do ferry operators communicate about outages, repairs, and schedule changes?"
   };
 
   let html = "<h2>PSC Ferry Project – Public Comment Form Submission</h2>";
